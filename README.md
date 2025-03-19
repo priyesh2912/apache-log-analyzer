@@ -34,15 +34,12 @@ This is a command-line tool that reads Apache log files in **Combined Log Format
    ```bash
    git clone https://github.com/priyesh2912/onclusive_assessment.git
 
-2. cd to project directory: 
-   cd apache-log-stats
-
-3. Install requirements:
+2. Install requirements:
    pip install -r requirements.txt
 
-4. Generate a test log file (if not exist)
+3. Generate a test log file (if not exist)
    python scripts/generate-logs.py -f logs/generated.log
 
-5. Run tool:
+4. Run tool:
    python log_stats.py logs/generated.log
 
